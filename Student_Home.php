@@ -1,7 +1,7 @@
 <?php
 //import the config,php file to establish database connectivity
 require('config.php');
-//turn on buffer output
+
 ob_start();
 
 $name=$_COOKIE['name'];
