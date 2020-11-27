@@ -1,7 +1,7 @@
 <?php
 //import database config.php file
 require('config.php');
-//turn on buffer output
+
 ob_start();
 // If form submitted, insert values into the database.
 if (!empty($_POST)) {
