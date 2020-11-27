@@ -18,7 +18,7 @@ artifacts:
     - signup.php
     - Staff_Approval.php
     - Staff_View_Approval.php
-    - Student-Appointments.php
-    - Student-Home.php
+    - Student_Appointments.php
+    - Student_Home.php
     - style.css
     - Update.php
