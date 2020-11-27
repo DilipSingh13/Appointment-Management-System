@@ -1,12 +1,12 @@
 version: 0.2
 phases:
-  prebuild:
+  pre_build:
     commands:
       - echo "Entered in prebuild phase";
   build:
     commands:
       - echo "Entered in build phase"
-  post-build:
+  post_build:
     commands:
       - echo "Enteredin post-build phase"
 artifacts:
