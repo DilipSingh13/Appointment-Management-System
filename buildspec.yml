@@ -1,12 +1,24 @@
-services:
-- mysql
-
-variables:
-  # Configure mysql service (https://hub.docker.com/_/mysql/)
-  MYSQL_DATABASE: test
-  MYSQL_ROOT_PASSWORD: test
-
-connect:
-  image: mysql
-  script:
-  - echo "SELECT 'OK';" | mysql --user=root --password="$MYSQL_ROOT_PASSWORD" --host=mysql "$MYSQL_DATABASE"
+version: 0.2
+phases:
+  prebuild:
+    commands:
+      - echo "Entered in prebuild phase";
+  build:
+    commands:
+      - echo "Entered in build phase"
+  post-build:
+    commands:
+      - echo "Enteredin post-build phase"
+artifacts:
+  files:
+    - config.php
+    - Delete.php
+    - index.php
+    - login-signup-style.css
+    - signup.php
+    - Staff_Approval.php
+    - Staff_View_Approval.php
+    - Student-Appointments.php
+    - Student-Home.php
+    - style.css
+    - Update.php
