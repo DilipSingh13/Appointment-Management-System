@@ -14,7 +14,7 @@ artifacts:
     - config.php
     - Delete.php
     - index.php
-    - login-signup-style.css
+    - login_signup_style.css
     - signup.php
     - Staff_Approval.php
     - Staff_View_Approval.php
