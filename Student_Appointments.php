@@ -66,7 +66,7 @@ else{?>
     <form action="" method="post" role="form">
       <!-- initalizing table to display fetch result in tabular form -->
       <table class="table table-bordered" id="myTable">
-        <caption style="color:white; font-family:Serif; font-size:140%;">View booked appointments</caption>
+        <caption style="color:white; font-family:Serif; font-size:140%;">View My appointments</caption>
         <!-- initalizing table head to display fetch result headings -->
         <thead class="alert-info">
           <tr>
